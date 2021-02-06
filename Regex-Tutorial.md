@@ -4,7 +4,13 @@ Regex is a power tool in a developer’s arsenal. During this tutorial we will d
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+Passwords are important! Every developer should understand how to use regex for password requirements. We have common password requirements below and our expression to follow.
+
+My password requirements => Minimum of 8 and maximum of 10 characters, at least one uppercase letter, one lowercase letter, one number and one special character.
+
+My expression => ^(?=._?[A-Z])(?=(._[a-z]){1,})(?=(._[\d]){1,})(?=(._[\W]){1,})(?!.\*\s).{8,10}$
+
+Now, let’s dive into the regex!
 
 ## Table of Contents
 
