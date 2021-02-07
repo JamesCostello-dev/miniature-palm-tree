@@ -30,6 +30,8 @@ Now, let’s dive into the regex!
 
 ### Anchors
 
+^ and $ represent the anchors or the beginning and end of the expression. The ^ character matches the beginning of the string. The $ matches the end of the string.
+
 ### Quantifiers
 
 ### OR Operator
