@@ -34,13 +34,15 @@ Now, let’s dive into the regex!
 
 ### Quantifiers
 
-*, ?, {1,}, and {8, 10} represent the quantifiers. The * symbol matches 0 or more of the preceding token. The ? makes the preceding quantifier lazy, causing it to match as few characters as possible. The {1,} matches 1 or more of the preceding token. You will notice multiple of these quantifiers in the expression to validate the user has at least one match for these parameters. Finally, {8, 10} which sets the length of the password minimum of 8 characters with a maximum of 10.
+_, ?, {1,}, and {8, 10} represent the quantifiers. The _ symbol matches 0 or more of the preceding token. The ? makes the preceding quantifier lazy, causing it to match as few characters as possible. The {1,} matches 1 or more of the preceding token. You will notice multiple of these quantifiers in the expression to validate the user has at least one match for these parameters. Finally, {8, 10} which sets the length of the password minimum of 8 characters with a maximum of 10.
 
 ### OR Operator
 
 The OR or alternation operator acts like a Boolean using the | symbol by matching the expression before or after the | symbol. There are no alternation symbols in this expression.
 
 ### Character Classes
+
+The character classes are represented by the [A-Z], [a-z], [\d], [\W], and \s. The [A-Z] expression matches a character in the range from ‘A’ to ‘Z’ which is case sensitive. Similarly, the expression [a-z] will match from range of ‘a’ to ‘z’, case sensitive. The [\d] expression will match any digit input by the user from (0-9), which is equivalent to using the [0-9] character set. The [\W] matches any character that is not a word, such as alphanumeric & underscore. This expression is equivalent to using [^a-za-z0-9_]. Lastly, \s which represents white space. Additional context, there can be no whitespace in the user’s password, therefore you will notice the ?! which produces a negative result. We will dive into this a bit later but for now understand this group does not allow white space.
 
 ### Flags
 
