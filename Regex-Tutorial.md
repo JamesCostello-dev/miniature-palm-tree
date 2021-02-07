@@ -34,6 +34,8 @@ Now, let’s dive into the regex!
 
 ### Quantifiers
 
+_, ?, {1,}, and {8, 10} represent the quantifiers. The _ symbol matches 0 or more of the preceding token. The ? makes the preceding quantifier lazy, causing it to match as few characters as possible. The {1,} matches 1 or more of the preceding token. You will notice multiple of these quantifiers in the expression to validate the user has at least one match for these parameters. Finally, {8, 10} which sets the length of the password minimum of 8 characters with a maximum of 10.
+
 ### OR Operator
 
 ### Character Classes
