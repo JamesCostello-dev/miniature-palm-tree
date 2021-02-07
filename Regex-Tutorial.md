@@ -63,6 +63,8 @@ Groups are represented by (). Groups can have multiple expressions to create a c
 
 ### Bracket Expressions
 
+Bracket expressions are a list of characters enclosed by [] and will match any single character in that list. Bracket expressions are used in this example in combination with character classes. For additional context see ‘Character Classes’ section.
+
 ### Greedy and Lazy Match
 
 ### Boundaries
