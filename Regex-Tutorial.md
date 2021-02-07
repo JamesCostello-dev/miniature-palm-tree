@@ -80,6 +80,8 @@ There are no boundaries in our example expression.
 
 ### Back-references
 
+Back references or numeric references are used to match the result of a capture group. For example \1 would reference the first capture group. Our example expression does not use any back or numeric references.
+
 ### Look-ahead and Look-behind
 
 ## Author
