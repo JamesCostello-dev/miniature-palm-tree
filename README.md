@@ -15,7 +15,7 @@ Markdown
 [Tutorial Link](https://github.com/JamesCostello-dev/miniature-palm-tree/blob/main/Regex-Tutorial.md)
 
 ## Contributions
-Made by: James-Costello-dev
+James-Costello-dev
 
 ## Sources
 https://regexr.com/
