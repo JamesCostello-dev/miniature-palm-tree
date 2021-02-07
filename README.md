@@ -6,13 +6,13 @@ Tutorial breaking down a regular expression used for password requirements.
 ## Table of Contents:
 * [Description](#description)
 * [Built With](#built-with)
-* [Repository](#repository)
+* [Tutorial](#tutorial)
 
 ## Built With
 Markdown
 
-## Repository
-[Repository Link](https://github.com/JamesCostello-dev/miniature-palm-tree)
+## Tutorial
+[Repository Link](https://github.com/JamesCostello-dev/miniature-palm-tree/blob/main/Regex-Tutorial.md)
 
 ## Contributions
 Made by: James-Costello-dev
