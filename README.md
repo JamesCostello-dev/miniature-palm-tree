@@ -12,7 +12,7 @@ Tutorial breaking down a regular expression used for password requirements.
 Markdown
 
 ## Tutorial
-[Repository Link](https://github.com/JamesCostello-dev/miniature-palm-tree/blob/main/Regex-Tutorial.md)
+[Tutorial Link](https://github.com/JamesCostello-dev/miniature-palm-tree/blob/main/Regex-Tutorial.md)
 
 ## Contributions
 Made by: James-Costello-dev
