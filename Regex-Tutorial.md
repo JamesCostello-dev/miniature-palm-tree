@@ -67,7 +67,7 @@ Bracket expressions are a list of characters enclosed by [] and will match any s
 
 ### Greedy and Lazy Match
 
-We touched on the Lazy matches represented by ? earlier in this tutorial. However, for good measures lets refresh. Characters after the lazy match cause it to match as few characters as possible. By default quantifiers are greedy and will match as many characters as possible.
+We touched on the Lazy matches represented by ? earlier in this tutorial. However, for good measures lets refresh. Characters after the lazy match cause it to match as few characters as possible. By default, quantifiers are greedy and will match as many characters as possible. For our example you can see the use of Lazy matches in combination with \* to match the fewest number of characters for our password requirements.
 
 ### Boundaries
 
