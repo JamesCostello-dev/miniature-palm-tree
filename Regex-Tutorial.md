@@ -38,6 +38,8 @@ _, ?, {1,}, and {8, 10} represent the quantifiers. The _ symbol matches 0 or mor
 
 ### OR Operator
 
+The OR or alternation operator acts like a Boolean using the | symbol by matching the expression before or after the | symbol. There are no alternation symbols in this expression.
+
 ### Character Classes
 
 ### Flags
