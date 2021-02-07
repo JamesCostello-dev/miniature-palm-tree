@@ -55,9 +55,11 @@ Flags are used to change how the expression is interpreted. Flags are set after 
     y = sticky => matches from its lastindex and ignores global
     s = dotall => matches any character, including newline characters.
 
-For this example we do not have any flags.
+For this example, we do not have any flags.
 
 ### Grouping and Capturing
+
+Groups are represented by (). Groups can have multiple expressions to create a capture group. We use the groups in this expression to narrow down our password parameters. Each specific parameter to our password has either one group or multiples to create a capture group.
 
 ### Bracket Expressions
 
