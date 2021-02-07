@@ -1,4 +1,4 @@
-# miniature-palm-tree
+# RegEx Tutorial
 
 Regex is a power tool in a developer’s arsenal. During this tutorial we will dive into how regex is used by dissecting a regular expression. We will use a specific regex and breakdown the search pattern the regex defines.
 
