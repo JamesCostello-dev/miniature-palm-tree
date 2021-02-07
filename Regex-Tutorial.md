@@ -71,6 +71,13 @@ We touched on the Lazy matches represented by ? earlier in this tutorial. Howeve
 
 ### Boundaries
 
+Boundaries are represented by \b and \B.
+
+\b = work boundary => matches a word or non-word character or position to the start and end of a string.
+\B = not word boundary => matches any position that is not a word boundary, position only not character.
+
+There are no boundaries in our example expression.
+
 ### Back-references
 
 ### Look-ahead and Look-behind
