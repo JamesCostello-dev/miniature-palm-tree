@@ -84,6 +84,8 @@ Back references or numeric references are used to match the result of a capture 
 
 ### Look-ahead and Look-behind
 
+Look-ahead and look-behind allow you to match groups before or after without including in your result. The look around references can be either negative or positive. Our example uses positive lookahead using ?= for characters and negative lookahead using ?! for whitespace.
+
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+My name is James. I am a developer with a passion for learning new technologies. You can find me here ‘JamesCostello-dev’ and feel free to reach out with any feedback.
