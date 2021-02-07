@@ -46,6 +46,17 @@ The character classes are represented by the [A-Z], [a-z], [\d], [\W], and \s. T
 
 ### Flags
 
+Flags are used to change how the expression is interpreted. Flags are set after the closing forward slash. The list of flags are as follows:
+
+    I = ignore case => makes the expression case sensitive
+    g = global search => use this to find infinite matches
+    m = multiline => finds matches on multiple lines
+    u = Unicode => for use of extended unicode
+    y = sticky => matches from its lastindex and ignores global
+    s = dotall => matches any character, including newline characters.
+
+For this example we do not have any flags.
+
 ### Grouping and Capturing
 
 ### Bracket Expressions
